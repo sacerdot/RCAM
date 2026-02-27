@@ -22,3 +22,7 @@ The allowed concrete syntax for terms is
 > t ::= x | tt | \x.t | λx.t | (t)
 
 where variables like `x` are single letters, `\` and `λ` are synonyms and application is associative to the left.
+
+## Example of output
+
+![Example of output](run.png)
