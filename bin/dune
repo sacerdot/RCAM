@@ -1,0 +1,4 @@
+(executable
+ (public_name rcam)
+ (name rcam)
+ (libraries rcamimpl core "core_unix.command_unix"))
