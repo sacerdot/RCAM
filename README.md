@@ -23,6 +23,9 @@ The allowed concrete syntax for terms is
 
 where variables like `x` are single letters, `\` and `λ` are synonyms and application is associative to the left.
 
+The term to be evaluated is crumbled and then it is executed running the machine in forward mode untile the final state is reached.
+Then the machine direction is reverted and the machine is run again until the initial state is reached again.
+
 ## Example of output
 
 ![Example of output](run.png)
