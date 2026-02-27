@@ -18,7 +18,7 @@ You can run the program typing
 in a Unix/Linux shell with dark background suggested.
 
 The `FILENAME` is the name of a file containing a term to be evaluated. Examples can be found in the directory `tests`.
-The allowed syntax for terms is
-> t ::= x | tt | \x.t | λx.t
+The allowed concrete syntax for terms is
+> t ::= x | tt | \x.t | λx.t | (t)
 
-where variables like `x` are single letters and `\` and `λ` are synonyms.
+where variables like `x` are single letters, `\` and `λ` are synonyms and application is associative to the left.
